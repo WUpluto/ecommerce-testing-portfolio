@@ -1,2 +1,12 @@
-# ecommerce-testing-portfolio
-It includes test cases for the core transaction chain of B2C e-commerce, backend SQL data verification scripts, and a collection of Linux troubleshooting commands.
+
+#### `README.md`
+```markdown
+# B2C 电商平台软件测试实战作品集 (Portfolio)
+
+## 项目简介
+本项目展示了在 B2C 电商平台（包含商品、购物车、订单、支付核心链路）测试过程中的各类测试资产。旨在展示严密的业务逻辑拆解能力与服务端问题排查能力。
+
+## 资产清单
+1. **测试用例 (`/test_cases`)**: 包含核心交易链路的边界值分析、异常场景与幂等性测试用例。
+2. **SQL 校验脚本 (`/sql_scripts`)**: 测试下单支付后，用于校验数据库落库状态、库存扣减与多表对账的实战 SQL 脚本。
+3. **Linux 排障笔记 (`/linux_troubleshooting`)**: 测试环境日常排查 HTTP 500、日志定位及报错堆栈抓取的常用 Shell 命令合集。
